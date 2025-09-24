@@ -1,1 +1,25 @@
 /*  your css code here. If applicable */
+  body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #222;
+    }
+
+    .board {
+      display: grid;
+      grid-template-columns: repeat(40, 20px); /* 40 columns × 20px = 800px wide */
+      gap: 2px;
+    }
+
+    .box {
+      width: 20px;
+      height: 20px;
+      background: #444;
+      transition: background 0.3s;
+    }
+
+    .box:hover {
+      background: #ff6347; /* color changes on hover */
+    }
