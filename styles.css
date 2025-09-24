@@ -7,7 +7,7 @@
       background: #222;
     }
 
-    .board {
+    .container {
 		margin-left:200px;
       display: grid;
       grid-template-columns: repeat(40, 20px); /* 40 columns × 20px = 800px wide */
