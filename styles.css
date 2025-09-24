@@ -8,18 +8,19 @@
     }
 
     .board {
+		margin-left:200px;
       display: grid;
       grid-template-columns: repeat(40, 20px); /* 40 columns × 20px = 800px wide */
       gap: 2px;
     }
 
-    .box {
+    .square {
       width: 20px;
       height: 20px;
-      background: #444;
+      background: rgb(29,29,29);
       transition: background 0.3s;
     }
 
-    .box:hover {
-      background: #ff6347; /* color changes on hover */
-    }
+  /* .box:hover {
+      background: tomato; /* color changes on hover */
+    /*}*/
